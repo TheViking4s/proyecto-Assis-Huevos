@@ -1,0 +1,47 @@
+*{
+  margin :0;
+}
+ul { 
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eaf3ea;  
+  }
+  li{
+    float: left;
+  }
+  h3{
+      list-style-type: georgian;
+      text-align: center;
+    }
+  li a{
+    display: block;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  li a:hover {
+    background-color: #ee0303;
+  }
+article{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    background-color: #eb6105; 
+}
+.articulos{
+  text-align: center;
+  display: grid;
+}
+nav {
+    text-align: left;
+}
+
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
